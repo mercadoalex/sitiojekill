@@ -7,6 +7,11 @@ window.NREUM||(NREUM={}),__nr_require=function(t,n,e){function r(e){if(!n[e]){va
 ;NREUM.loader_config={accountID:"2648878",trustKey:"2648878",agentID:"640881518",licenseKey:"NRJS-0ee7e902a9bb6e976cf",applicationID:"640881518"}
 ;NREUM.info={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",licenseKey:"NRJS-0ee7e902a9bb6e976cf",applicationID:"640881518",sa:1}
 </script>
+<script>
+    document.getElementById('find-out').addEventListener('click',function (e) {
+        newrelic.addPageAction('clickedFindOutMore');
+    })
+</script>
 
 <header>
 	<div class="header-content">
@@ -14,7 +19,7 @@ window.NREUM||(NREUM={}),__nr_require=function(t,n,e){function r(e){if(!n[e]){va
 			<h1>Your Favorite Source of Free Bootstrap Themes</h1>
 			<hr>
 			<p>Start Bootstrap can help you build better websites using the Bootstrap CSS framework! Just download your template and start going, no strings attached!</p>
-			<a href="/about.html" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
+			<a href="/about.html" id="find-out" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
 		</div>
 	</div>
 </header>
